@@ -12,6 +12,7 @@ public class Jeroo extends JerooBase {
   hop();
   hop();
   hop();
+  hop();
   turnright();
   hop();
   hop();
