@@ -9,7 +9,61 @@ public class Jeroo extends JerooBase {
         
     }
     // Put any helpermethods here
-    
+    method plantCross(){
+  //getting the jeroo to the right place to start the cross
+  hop();
+  hop();
+  hop();
+  hop();
+  hop();
+  turnright();
+  hop();
+  hop();
+  //the first section of the cross
+  hopplant();
+  ninetydegreecross();
+  //next section
+  endsofthecross();
+  //southwest section
+  ninetydegreecross();
+  //bottom of cross
+  endsofthecross();
+  //southeast section
+  ninetydegreecross();
+  //right of cross
+  endsofthecross();
+  //last part!
+  ninetydegreecross();
+  //top of cross
+  turn(LEFT);
+  hopplant();
+  turn(RIGHT);
+  hopplant();
+}
+method hopplant(){
+  hop();
+  plant();
+}
+method turnright(){
+  turn(LEFT);
+  turn(LEFT);
+  turn(LEFT);
+}
+method ninetydegreecross(){
+  hopplant();
+  hopplant();
+  hopplant();
+  turnright();
+  hopplant();
+  hopplant();
+  hopplant();
+}
+method endsofthecross(){
+  turn(LEFT);
+  hopplant();
+  hopplant();
+  turn(LEFT);
+}
     
     
     
