@@ -8,8 +8,7 @@ public class Jeroo extends JerooBase {
     public void plantCross() {
         
     }
-    // Put any helpermethods here
-    public void plantCross(){
+  // Put any helpermethods here
   //getting the jeroo to the right place to start the cross
   hop();
   hop();
