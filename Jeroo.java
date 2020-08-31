@@ -9,7 +9,7 @@ public class Jeroo extends JerooBase {
         
     }
     // Put any helpermethods here
-    method plantCross(){
+    public void plantCross(){
   //getting the jeroo to the right place to start the cross
   hop();
   hop();
@@ -40,16 +40,16 @@ public class Jeroo extends JerooBase {
   turn(RIGHT);
   hopplant();
 }
-method hopplant(){
+public void hopplant(){
   hop();
   plant();
 }
-method turnright(){
+public void turnright(){
   turn(LEFT);
   turn(LEFT);
   turn(LEFT);
 }
-method ninetydegreecross(){
+public void ninetydegreecross(){
   hopplant();
   hopplant();
   hopplant();
@@ -58,7 +58,7 @@ method ninetydegreecross(){
   hopplant();
   hopplant();
 }
-method endsofthecross(){
+public void endsofthecross(){
   turn(LEFT);
   hopplant();
   hopplant();
